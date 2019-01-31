@@ -10,19 +10,23 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light">
-        <a class="navbar-brand" href="#">
-            <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
-            Jason Eckhart (Full Stack Web-Development)
-        </a>
-        <a class="btn btn-primary" id="nav-button" href="#main-body" role="button">About Me</a>
-        <a class="btn btn-primary" id="nav-button" href="#main-body" role="button">Resume</a>
-        <a class="btn btn-primary" id="nav-button" href="#portfolio-body" role="button">Portfolio</a>
-        <a class="btn btn-primary" id="nav-button" href="#main-body" role="button">Contact</a>
-    </nav>
+    <div class="hover-space">
+        <nav class="navbar sticky-top navbar-light">
+            <a class="navbar-brand" href="#" id="nav-body">
+                <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+                Jason Eckhart: Full-Stack Web Development
+            </a>
+            <ul>
+                <li><a href="#nav-body">Home</a></li>
+                <li><a href="#main-body">About Me</a></li>
+                <li><a href="#portfolio-body">Portfolio</a></li>
+                <li><a href="#contact-body">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <div class="body-image">
-        <img id="jason-img" src="">
+        <img id="jason-img" src="assets/images/00-promo-image-kansas-city-missouri-travel-guide.jpg">
     </div>
 
     <div class="container" id="main-body">
@@ -34,7 +38,7 @@
         <div class="row">
 
             <div class="col-lg-3">
-                <img src="">
+                <img src="assets/images/unnamed.jpg" id="portrait">
             </div>
 
             <div class="col-lg-9">
@@ -50,7 +54,7 @@
 
         <div class="row">
             <div class="col-sm-12">
-                <p>
+                <p id="p2">
                     While Jason always struggled in school, he had a certain knack for using and maintaining
                     desktop computers. This hobby, which
                     started from simply playing video games and being exposed to the technology, blossmed into a
@@ -80,58 +84,80 @@
     </div>
     <div class="container" id="portfolio-body">
 
-            <h1 class="display-4">My Projects</h1>
-    
-            <hr class="my-4">
-    
-            <div class="row">
-    
-                <div class="col-lg-3">
-                    <img src="">
-                </div>
-    
-                <div class="col-lg-9">
-                    <p> Jason Eckhart is a 29 year-old Kansas City resident. Born in Danbury, Connecticut, Jason moved
-                        with his family to KC when he was five years old.
-                        He graduated High School in 2007 from Blue Valley Northwest High School. With a passion for
-                        writing, and a keen sense of self expression through it,
-                        he decided to do what was "normal" and attend a university. After attempting a year at Kansas
-                        State University,Jason determined he was not cut out for the standard form of education. </p>
-                </div>
-    
-            </div>
-    
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>
-                        While Jason always struggled in school, he had a certain knack for using and maintaining
-                        desktop computers. This hobby, which
-                        started from simply playing video games and being exposed to the technology, blossmed into a
-                        passion. After the failed stint at college,
-                        Jason tried his hands at several things. Working operations at Guitar Center led to playing in
-                        a band, which led to going on tour. After
-                        which he fell in to a cooking job that continues to last for nearly a decade.
-                    </p>
+        <h1 class="display-4">My Projects</h1>
+        <a href="https://github.com/Jeckhart582?tab=repositories">https://github.com/Jeckhart582?tab=repositories</a>
+
+        <hr class="my-4">
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="container-hover">
+                    <img src="assets/images/trainScheduler.png" id="img-body">
+                    <div class="overlay">
+                        <div class="text"> <a href="https://www.linkedin.com/in/jason-eckhart-0b6964162" class="active">Train
+                                Scheduler</a></div>
+                    </div>
                 </div>
             </div>
-    
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>
-                        Getting bored with life and frustrated with the service indursty, Jason began looking for
-                        something new. That is when
-                        he saw an add on reddit for a web design course at KU. A combination of frustration at his job,
-                        the hunger of knowledge,
-                        and the dissatisifaction of his past school performance motivated him to turn a new page and
-                        enroll. While he finds the pace
-                        of the course challenging, he is enjoying it immensly. While the work is hard, it is rewarding
-                        and hardly feels like the work
-                        he is used to.
-                    </p>
+
+            <div class="col-md-6">
+                <div class="container-hover">
+                    <img src="assets/images/crystal.png" id="img-body">
+                    <div class="overlay">
+                        <div class="text"> <a href="https://www.linkedin.com/in/jason-eckhart-0b6964162" class="active">Crystal
+                                Game (AJAX)</a></div>
+                    </div>
                 </div>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="container-hover">
+                    <img src="assets/images/project1.png" id="img-body">
+                    <div class="overlay">
+                        <div class="text"> <a href="https://www.linkedin.com/in/jason-eckhart-0b6964162" class="active">My
+                                Watch List(Project 1)</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-hover">
+                    <img src="assets/images/ajax.png" id="img-body">
+                    <div class="overlay">
+                        <div class="text"> <a href="https://www.linkedin.com/in/jason-eckhart-0b6964162" class="active">Giphy
+                                Gallery</a></div>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+    </div>
+
+    <div class="container" id="contact-body">
+
+        <h1 class="display-4">Contact</h1>
+
+        <hr class="my-4">
+
+        <div class="row">
+
+            <div class="col-md-6">
+                Email: jeckhart582@gmail.com <br>
+                Phone: (913)687-2166 <br>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/jason-eckhart-0b6964162">https://www.linkedin.com/in/jason-eckhart-0b6964162</a><br>
+                Github:
+                <a href="https://github.com/Jeckhart582?tab=repositories">https://github.com/Jeckhart582?tab=repositories</a>
+
+
             </div>
         </div>
-    
+    </div>
+
 
 </body>
 
