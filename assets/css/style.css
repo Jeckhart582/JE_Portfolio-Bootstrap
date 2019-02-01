@@ -47,6 +47,10 @@ body {
     margin-top: 5px;
 }
 
+#row1 {
+    margin-bottom: 10px;
+}
+
 .container {
     background: white;
     font-family: 'Ropa Sans', sans-serif;
@@ -61,6 +65,7 @@ body {
     display: block;
     width:75%;
     height: auto;
+    border: solid;
 }
 
 .overlay {
@@ -78,6 +83,11 @@ body {
   -webkit-transition: .3s ease;
   transition: .3s ease;
   opacity: .90;
+  border-radius: 8px;
+}
+
+.container-hover {
+    padding: 5px;
 }
 
 .container-hover:hover .overlay {
