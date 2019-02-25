@@ -67,6 +67,13 @@ body {
     height: auto;
     border: solid;
 }
+#img-body1 {
+    display: block;
+    width:75%;
+    height: 300px;
+    border: solid;
+}
+
 
 .overlay {
   position: absolute;
