@@ -1,2 +1,2 @@
-# Portfolio_FInal
-Jason Eckhart's Web Design Portfolio
+# JE_Portfolio-Bootstrap
+Jason Eckhart's Web Design Portfolio built using Bootstrap Framework
